@@ -1,0 +1,118 @@
+/* General body styling */
+body {
+    background-color: #181818;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card container */
+.card {
+    background-color: #242424;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Title styling */
+h1 {
+    color: #00e676;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Subtitle styling */
+.subtitle {
+    font-size: 18px;
+    color: #bdbdbd;
+    margin: 15px 0 10px;
+}
+
+/* Route list styling */
+.ruta-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ruta-list li {
+    margin: 10px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ruta-list li i {
+    color: #00e676;
+    font-size: 18px;
+}
+
+/* Button styling */
+.btn {
+    background-color: #00e676;
+    color: #181818;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00c853;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+/* Ruta flow container */
+.ruta-flow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #e0e0e0;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.step i {
+    color: #00e676;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.arrow {
+    font-size: 20px;
+    color: #00e676;
+}
